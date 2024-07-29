@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Исправленные теги скрипта -->
+    <script type="text/javascript" src="harjoitus2.js"></script>
+    <title>Tehtävä #1</title>
+    <!-- Defer: нужно для доступа к DOM -->
+    <style>
+      h1 {
+        background-color: blueviolet;
+      }
+    </style>
+    <!-- Скрипт должен быть перед закрывающим тегом </body> или использован defer -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("main").innerHTML = "muutos 2";
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Tehtävä #1</h1>
+    <script>
+      window.alert("Hei kaikkille!");
+      console.log("Mita tapahtu?");
+    </script>
+  </body>
+</html>

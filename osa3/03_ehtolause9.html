@@ -1,0 +1,29 @@
+<!--
+Luo Magic 8-Ball -ohjelma, joka matkii klassista kohtalon ennustamisen lelua. Käyttäjä syöttää kyllä-tai-ei
+-kysymyksen, ja ohjelma * antaa satunnaisen vastauksen 8-pallosta. Toteuta ohjelma käyttämällä ehtolauseita valitsemaan
+ja näyttämään yksi useista ennalta määritellyistä vastauksista. 
+-->
+<!-- 
+Создайте программу Magic 8-Ball, имитирующую
+классическую игрушку для гадания. * Пользователь вводит вопрос с ответом «да» или «нет», и программа дает случайный
+ответ от восьмерки. * Реализуйте программу, использующую условные операторы для выбора и отображения одного из
+нескольких предопределенных ответов.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic 8-Ball</title>
+  </head>
+  <body>
+    <h1>Magic 8-Ball</h1>
+    <p>Enter your yes/no question:</p>
+    <input type="text" id="questionInput" />
+    <button onclick="askQuestion()">Ask the Magic 8-Ball</button>
+    <p id="answer"></p>
+
+    <script src="03_ehtolause9.js"></script>
+  </body>
+</html>
